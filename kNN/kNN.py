@@ -15,7 +15,6 @@ def sqrt(n, precision=0.00001):
     return guess
 
 def euclidean_distance(p1, p2):
-
     return sqrt((p1[0] - p2[0]) ** 2 + (p1[1] - p2[1]) ** 2)
 
 def knn_classify(new_point, k):
